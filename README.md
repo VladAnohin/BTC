@@ -1,3 +1,9 @@
+- 1. git clone https://github.com/VladAnohin/BTC
+- 2. cd BTC
+- 3. yarn 
+- 4. yarn dev
+
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.
