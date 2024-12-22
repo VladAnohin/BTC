@@ -1,7 +1,7 @@
-- 1. git clone https://github.com/VladAnohin/BTC
-- 2. cd BTC
-- 3. yarn 
-- 4. yarn dev
+1. git clone https://github.com/VladAnohin/BTC
+2. cd BTC
+3. yarn 
+4. yarn dev
 
 
 # vue-project
