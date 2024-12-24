@@ -1,20 +1,20 @@
 <template>
-    <nav>
-        <router-link to="/main">Main</router-link>
-        <router-link to="/stock">Stock</router-link>
-
+    <nav class="navbar">
+        <Button as="router-link" to="/main" class="first_link bg-purple-200" rounded >Main</Button>
+        <Button as="router-link" to="/stock" class="second_link bg-purple-200" rounded>Stock</Button>
     </nav>
-    <router-view to="/">
-    </router-view>
-
-    
+    <router-view :key="$route.path"/>
 </template>
 
 <script lang="ts">
-
+import Button from 'primevue/button'
 import './App.css';
-
-
+export default {
+    name: 'App',
+    components: {
+        Button
+    }
+}
 </script>
 
 
