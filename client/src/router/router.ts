@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import Stock from './../views/Stock.vue';
+import Stock from '../views/Stock.vue';
 import App from '@/components/App.vue';
 import Main from '@/components/Main.vue';
+import Auth from '@/components/Auth.vue';
 const routes = [
     {
         path: '/stock',
@@ -10,14 +11,20 @@ const routes = [
     },
     {
         path: '/',
-        name: 'App',
-        component: App
+        name: 'Auth',
+        component: Auth
     },
     {
         path: '/main',
         name: 'Main',
         component: Main
+    },
+    {
+        path: '/app',
+        name: 'App',
+        component: App
     }
+
 ];
 
 const router = createRouter({

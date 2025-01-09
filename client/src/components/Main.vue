@@ -45,7 +45,7 @@
             DataTable,
             Column,
             InputText,
-            Textarea
+            Textarea, 
         },
     }
     </script>

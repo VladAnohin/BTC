@@ -16,7 +16,7 @@ html, body {
     width: 100%;
     height: 100%;
     padding: 1rem;
-    background: linear-gradient(90deg, lightgreen, aliceBlue);
+    background: linear-gradient(90deg, lightgreen, rgb(180, 237, 195));
 }
 .navbar {
     margin-bottom: 10px;
